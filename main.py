@@ -30,7 +30,7 @@ async def get_weather(city):
 #                     f'\nTime: {hour.time.hour!r}:{hour.time.minute!r}\nTemperature: {hour.temperature!r}℃\nKind: {hour.description!r}\nFeels like: {hour.feels_like!r}℃\nWind direction: {hour.wind_direction.name!r} or {hour.wind_direction.degrees!r} deg.\nWind speed: {hour.wind_speed!r} km/h\nWind gusts: {hour.wind_gust!r} km/h\nPressure: {hour.pressure!r} hPa\nVisibility: {hour.visibility!r}\nUltraviolet rate: {hour.ultraviolet.name}\n')
 
 
-bot = telebot.TeleBot('6428571447:AAFpluFXvUl0FN99-hruUfJh-dAoISGoH10')
+bot = telebot.TeleBot('api key here')
 
 
 @bot.message_handler(commands=['start'])
