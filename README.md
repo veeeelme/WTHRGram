@@ -44,6 +44,10 @@ WTHRGram
   GPU: Intel Iris Graphics 6100 1536 МB
   ```
 
+## TODO
+- Connect app with a server
+- Forecasts
+
 ## License
 
 MIT License
