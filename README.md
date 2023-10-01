@@ -11,6 +11,10 @@ WTHRGram
 
 ## Use and Install
 - Clone this repo
+- Go to repository folder
+  ```
+  cd WTHRGram
+  ```
 - Download dependences
   ```
   pip install -r requirements.txt
@@ -20,6 +24,7 @@ WTHRGram
   ```
   python(3) path_to_repo/main.py
   ```
+- Go to your bot in telegram and type some cities.
 
 ## Directory Hierarchy
 ```
