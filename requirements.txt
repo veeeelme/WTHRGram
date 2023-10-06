@@ -1,2 +1,2 @@
-python-weather>=1.0.3
+weather-ch>=0.0.4
 pyTelegramBotAPI>=4.14.0
