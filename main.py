@@ -3,7 +3,7 @@ import weather
 import sys
 import os
 
-weatherAPI = weather.API('2ba0d611070d4a21bc4172910230410')
+weatherAPI = weather.API('weather api api key')
 
 
 def get_weather(city):
@@ -12,7 +12,7 @@ def get_weather(city):
         f"Other info: \nPressure: {weather['current']['humidity']}%\nFeels like: {weather['current']['feelslike_c']}\nVisibility: {weather['current']['vis_km']} km\nUltraviolet index: {weather['current']['uv']}\nGust: {weather['current']['gust_kph']} kph\n(Info for {weather['current']['last_updated']})"
 
 
-bot = telebot.TeleBot('6428571447:AAFpluFXvUl0FN99-hruUfJh-dAoISGoH10')
+bot = telebot.TeleBot('telegram bot api key')
 
 
 @bot.message_handler(commands=['start'])
