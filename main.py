@@ -3,7 +3,7 @@ import weather
 import sys
 import os
 
-weatherAPI = weather.API('weather api api key')
+weatherAPI = weather.API('weather api api key') 
 
 
 def get_weather(city):
