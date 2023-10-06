@@ -7,3 +7,4 @@ This release is made for hosting, and if you want it, you would:
 3. Insert in in `weatherAPI` variable (main.py)
 4. If you already has Telegram bot api, insert it in `bot`  variable (main.py), otherwise, see `main` branch README.md
 5. Run main.py
+ 
